@@ -5,6 +5,7 @@
 - **Target Mobile Platform**: iOS (iPhone/iPad)
 - **Framework**: Flutter 3.32.5 (Dart 3.8.1)
 - **Build / Dev Tool**: MobAI `ios-builder` (v0.9.0)
+- **GitHub Repository**: https://github.com/a23mg/iostestapp
 
 ---
 
