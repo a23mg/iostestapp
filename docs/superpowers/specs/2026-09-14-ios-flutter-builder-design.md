@@ -71,10 +71,16 @@ D:/mgproject/testflutter/
 ### 3.2 Configuration File (`builder.json`)
 ```json
 {
+  "project": "fitdee",
+  "platform": "flutter",
+  "github": {
+    "owner": "a23mg",
+    "repo": "iostestapp"
+  },
   "ios": {
     "path": "ios",
     "scheme": "Runner",
-    "configuration": "Release"
+    "configuration": "Debug"
   },
   "flutter": {
     "version": "3.32.5"
