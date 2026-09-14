@@ -1,0 +1,10 @@
+{
+  "ios": {
+    "path": "ios",
+    "scheme": "Runner",
+    "configuration": "Release"
+  },
+  "flutter": {
+    "version": "3.32.5"
+  }
+}
