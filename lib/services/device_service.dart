@@ -43,7 +43,8 @@ class DeviceService {
           isPhysicalDevice: true,
         );
       }
-    } catch (_) {
+    } catch (e, stackTrace) {
+      debugPrint('Error getting device info: $e\n$stackTrace');
       return const AppDeviceInfo(
         platform: 'Unknown',
         model: 'Generic Device',
